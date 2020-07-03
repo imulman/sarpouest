@@ -531,6 +531,10 @@ body {
     }
 }
 
+div#myWidget iframe {
+    height: 80px;
+}
+
 .location-name {
     color: #ecc93b;
 }
