@@ -31,6 +31,9 @@ body {
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
+.location-offer-ranges {
+    display: none;
+}
 .search-geolocation-button,
 .search-form-submit {
     display: inline-block;
@@ -372,7 +375,7 @@ body {
 }
 
 .opening-status.closed {
-    color: #2F4858;
+    color: #ea4335;
 }
 
 .opening-hours {
