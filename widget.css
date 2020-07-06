@@ -541,3 +541,25 @@ body {
 .search-result div:before, .search-result a:before {
     color: #2e4757;
 }
+
+
+.search-empty-result {
+    height: 500px;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: url(https://image.flaticon.com/icons/svg/1178/1178479.svg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.search-results {
+    width: fit-content;
+    float: left;
+    max-height: 500px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
