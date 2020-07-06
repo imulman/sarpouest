@@ -470,6 +470,9 @@ body {
         width: 50%;
         margin-top: 10px;
     }
+    .map {
+        height: 500px !important;
+    }
 }
 
 .search-error {
@@ -532,7 +535,7 @@ body {
 }
 
 div#myWidget iframe {
-    height: 80px;
+    /* height: 80px; */
 }
 
 .location-name {
