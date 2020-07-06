@@ -561,3 +561,18 @@ span.search-empty-result-label {
     font-weight: 900;
     color: #2f4858;
 }
+
+.search-form-submit::before {
+    content: '\e91a';
+    color: #2f4858;
+}
+
+input.search-form-input {
+    color: #2f4858;
+    font-weight: 700;
+}
+
+.search-geolocation-button::before {
+    content: "\f192";
+    color: #2f4858;
+}
