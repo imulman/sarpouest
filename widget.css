@@ -448,7 +448,6 @@ body {
 
 @media (min-width: 768px) {
     .search-results {
-        width: 50%;
         float: left;
         max-height: 500px;
         overflow-y: auto;
