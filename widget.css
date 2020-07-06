@@ -541,7 +541,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: url(https://image.flaticon.com/icons/svg/1178/1178479.svg);
+    background: url(https://www.demenageurs-du-soleil.fr//wp-content/uploads/sites/8937/2020/07/error.png);
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: top;
@@ -554,4 +554,10 @@ body {
     background: #fff;
     width: 50vw;
     font-weight: 300;
+}
+
+span.search-empty-result-label {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #2f4858;
 }
