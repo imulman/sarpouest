@@ -538,6 +538,6 @@ body {
     color: #ecc93b;
 }
 
-.search-result div:before {
+.search-result div:before, .search-result a:before {
     color: #2e4757;
 }
