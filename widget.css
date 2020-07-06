@@ -130,14 +130,6 @@ body {
     text-align: center;
 }
 
-.search-result {
-    position: relative;
-    border-top: 1px solid rgba(0, 0, 0, .2);
-    padding: 8px 0 36px;
-    background: #fff;
-    font-weight: 300;
-}
-
 .search-result:first-child {
     border-top: 0;
 }
@@ -556,10 +548,11 @@ body {
     background-position: top;
 }
 
-.search-results {
-    width: fit-content;
-    float: left;
-    max-height: 500px;
-    overflow-y: auto;
-    margin-top: 10px;
+.search-result {
+    position: relative;
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding: 8px 0 36px;
+    background: #fff;
+    width: 50vw;
+    font-weight: 300;
 }
