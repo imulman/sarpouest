@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'widget';
-    src:  url('https://lesdemenageursdusoleil202006171759.site-privilege.pagesjaunes.fr/wp-content/uploads/sites/8937/2020/07/fontello.woff');
+    src:  url('https://lesdemenageursdusoleil202006171759.site-privilege.pagesjaunes.fr/wp-content/uploads/sites/8937/2020/07/fontello-1.woff');
 }
 
 body {
@@ -68,11 +68,12 @@ body {
 }
 
 .search-geolocation-button::before {
-    content: "\f192";
+    content: "\E800";
+    color: #2f4858;
 }
 
 .search-form-submit::before {
-    content: '\e91a';
+    content: '\E802';
 }
 
 .search-form-input {
@@ -191,7 +192,7 @@ body {
 }
 
 .location-address:before {
-    content: '\e945';
+    content: '\E807';
 }
 
 .location-phone-link,
@@ -204,7 +205,7 @@ body {
 }
 
 .location-phone-link:before {
-    content: '\e91b';
+    content: '\E804';
 }
 
 .location-email-link:before {
@@ -288,7 +289,7 @@ body {
 
 .location-times:before {
     font-family: 'widget';
-    content: '\e912';
+    content: '\E801';
     top: 4px;
     left: 8px;
     font-size: 24px;
@@ -424,7 +425,7 @@ body {
 
 .route:before {
     font-family: 'widget';
-    content: '\e52e';
+    content: '\E805';
     font-size: 28px;
 }
 
@@ -533,7 +534,6 @@ body {
     color: #2e4757;
 }
 
-
 .search-empty-result {
     height: 500px;
     display: flex;
@@ -563,7 +563,7 @@ span.search-empty-result-label {
 }
 
 .search-form-submit::before {
-    content: '\e91a';
+    content: '\E802';
     color: #2f4858;
 }
 
@@ -572,7 +572,3 @@ input.search-form-input {
     font-weight: 700;
 }
 
-.search-geolocation-button::before {
-    content: "\f192";
-    color: #2f4858;
-}
