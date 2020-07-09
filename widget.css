@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'widget';
-    src:  url('https://lesdemenageursdusoleil202006171759.site-privilege.pagesjaunes.fr/wp-content/uploads/sites/8937/2020/07/fontello-1.woff');
+    src:  url('https://lesdemenageursdusoleil202006171759.site-privilege.pagesjaunes.fr/wp-content/uploads/sites/8937/2020/07/fontello-2.woff');
 }
 
 body {
@@ -297,7 +297,7 @@ body {
 }
 
 .location-times:after {
-    content: '\e90b';
+    content: '\E808';
     position: absolute;
     font-family: 'widget';
     right: 8px;
