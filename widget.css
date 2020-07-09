@@ -74,7 +74,7 @@ body {
 
 .search-geolocation-button::before {
     content: "\E800";
-    color: #2f4858;
+    color: #000000;
 }
 
 .search-form-submit::before {
@@ -564,16 +564,27 @@ body {
 span.search-empty-result-label {
     font-size: xx-large;
     font-weight: 900;
-    color: #2f4858;
+    color: #000000;
 }
 
 .search-form-submit::before {
     content: '\E802';
-    color: #2f4858;
+    color: #000000;
 }
 
 input.search-form-input {
-    color: #2f4858;
+    color: #000000;
     font-weight: 700;
 }
 
+.location-phone-link:hover:before {
+    color: #eed053;
+}
+
+a.location-phone-link:hover {
+    font-weight: bold;
+}
+
+.search-result span:not(.location-name-label), .search-result a {
+    font-weight: 400;
+}
