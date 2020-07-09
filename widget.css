@@ -577,7 +577,7 @@ input.search-form-input {
     font-weight: 700;
 }
 
-.location-phone-link:hover:before {
+.location-phone-link:hover:before, button:hover:before, .route:hover:before {
     color: #eed053;
 }
 
