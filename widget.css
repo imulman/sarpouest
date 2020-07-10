@@ -577,11 +577,11 @@ input.search-form-input {
     font-weight: 700;
 }
 
-.location-phone-link:hover:before, button:hover:before, .route:hover:before {
+.location-phone-link:hover:before, button:hover:before, .route:hover:before, location-email-link:hover:before {
     color: #eed053;
 }
 
-a.location-phone-link:hover {
+a.location-phone-link:hover, location-email-link:hover {
     font-weight: bold;
 }
 
