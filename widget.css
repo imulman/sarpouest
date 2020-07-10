@@ -581,7 +581,7 @@ input.search-form-input {
     color: #eed053;
 }
 
-a.location-phone-link:hover, .location-email:hover {
+a.location-phone-link:hover, a.location-email-link:hover {
     font-weight: bold;
 }
 
