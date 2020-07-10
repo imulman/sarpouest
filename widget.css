@@ -214,7 +214,7 @@ body {
 }
 
 .location-email-link:before {
-    content: '\e904';
+    content: '\E80A';
 }
 
 .location-phone-link:hover,
