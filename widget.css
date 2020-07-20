@@ -451,7 +451,16 @@ body {
 .route .loading:after {
     border-width: 5px;
 }
-
+@media (max-width: 1240px) {
+    .search-result {
+        position: relative;
+        border-top: 1px solid rgba(0,0,0,.2);
+        padding: 8px 0 36px;
+        background: #fff;
+        width: 100vw;
+        font-weight: 300;
+    }
+}
 @media (min-width: 768px) {
     .search-results {
         float: left;
