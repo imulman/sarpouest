@@ -468,7 +468,14 @@ body {
         overflow-y: auto;
         margin-top: 10px;
     }
-
+    .search-result {
+        position: relative;
+        border-top: 1px solid rgba(0,0,0,.2);
+        padding: 8px 0 36px;
+        background: #fff;
+        width: 100vw !important;
+        font-weight: 300;
+    }
     .map {
         display: block;
         height: 500px;
