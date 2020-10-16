@@ -60,11 +60,6 @@ button.search-geolocation-button {
     outline: 0;
 }
 
-.search-geolocation-button:hover,
-.search-form-submit:hover {
-    background: rgba(150, 150, 150, .1);
-}
-
 .search-geolocation-button::before,
 .search-form-submit::before {
     font-family: 'widget' !important;
