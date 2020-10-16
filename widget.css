@@ -39,6 +39,15 @@ body {
 .location-offer-ranges {
     display: none;
 }
+
+button.search-form-submit {
+    border-radius: 0 5px 5px 0;
+}
+
+button.search-geolocation-button {
+    border-radius: 5px 0 0 5px;
+}
+
 .search-geolocation-button,
 .search-form-submit {
     display: inline-block;
@@ -586,7 +595,7 @@ input.search-form-input {
 }
 
 .location-phone-link:hover:before, button:hover:before, .route:hover:before, .location-email-link:hover:before {
-    color: #eed053;
+    color: #0062a9;
 }
 
 a.location-phone-link:hover, a.location-email-link:hover {
