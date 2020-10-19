@@ -600,3 +600,7 @@ a.location-phone-link:hover, a.location-email-link:hover {
 .search-result span:not(.location-name-label), .search-result a {
     font-weight: 400;
 }
+
+form.search-form {
+    border-radius: 5px !important;
+}
