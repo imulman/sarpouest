@@ -41,11 +41,11 @@ body {
 }
 
 button.search-form-submit {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0.5em 0.5em 0;
 }
 
 button.search-geolocation-button {
-    border-radius: 5px 0 0 5px;
+    border-radius: 0.5em 0 0 0.5em;
 }
 
 .search-geolocation-button,
@@ -602,5 +602,5 @@ a.location-phone-link:hover, a.location-email-link:hover {
 }
 
 form.search-form {
-    border-radius: 5px !important;
+    border-radius: 0.5em !important;
 }
